@@ -239,6 +239,7 @@ body {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 	box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
 	box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background-color: var(--button-focus-color);
 }
 .form {
     padding: 72px 24px 24px 24px;
@@ -707,7 +708,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .social-list-footer{
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
     }
 .footer-subscribe {
@@ -719,7 +720,7 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
 }
 .email {
-    width: 224px;
+    width: 264px;
     height: 40px;
     color: var(--primary-bg-color);
     background-color: transparent;
